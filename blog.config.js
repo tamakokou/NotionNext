@@ -11,15 +11,20 @@ const BLOG = {
   APPEARANCE: 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
 
   AUTHOR: '福泽Akira', // 作者
-  BIO: '行之所向，吾之故乡', // 作者简介
+  BIO: '不忘初心，做中日交流的桥梁', // 作者简介
   LINK: 'https://xiaofu.vercel.app', // 网站地址（待修改）
   KEYWORDS: '留学,日本留学,就职,赴日就职,赴日留学,工签,日本工作,日本签证', // 网站关键词 英文逗号隔开
+  home:{//homepage
+    showHomeBanner:false,//首页是否显示大图及标语
+    homeBannerstrings:['心之所向，即是吾乡','勇敢踏出第一步']
+  },
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: 'greedu2030@gmail.com', // 邮箱ok
   CONTACT_WEIBO: '', // 你的微博个人主页（待修改）
   CONTACT_TWITTER: 'https://twitter.com/TamakoKou', // 你的twitter个人主页ok
   CONTACT_TELEGRAM: 'https://t.me/Fukuzawa_Akira', // 你的telegram 地址 例如 https://t.me/tangly_1024 ok
   CONTACT_LINKEDIN: '', // 你的linkedIn 首页 (待修改)
+ 
 
   // 网站默认使用PingFangSC及NotoSansSC，
   // 如需自定义字体，请将CUSTOM_FONT改为 true，并将CUSTOM_FONT_URL改为你的字体CSS地址，同时在CUSTOM_FONT_SANS与CUSTOM_FONT_SERIF中指定你的font-family
