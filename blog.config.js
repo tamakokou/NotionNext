@@ -14,10 +14,7 @@ const BLOG = {
   BIO: '不忘初心，做中日交流的桥梁', // 作者简介
   LINK: 'https://xiaofu.vercel.app', // 网站地址（待修改）
   KEYWORDS: '留学,日本留学,就职,赴日就职,赴日留学,工签,日本工作,日本签证', // 网站关键词 英文逗号隔开
-  home:{//homepage
-    showHomeBanner:false,//首页是否显示大图及标语
-    homeBannerstrings:['心之所向，即是吾乡','勇敢踏出第一步']
-  },
+
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: 'greedu2030@gmail.com', // 邮箱ok
   CONTACT_WEIBO: '', // 你的微博个人主页（待修改）
