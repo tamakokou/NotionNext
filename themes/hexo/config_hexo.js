@@ -1,6 +1,6 @@
 const CONFIG_HEXO = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_GREETINGS: ['心之所向，即是吾乡', '今天，踏出这一步'], // 首页大图标语文字
+  HOME_BANNER_GREETINGS: ['心之所向，即是吾乡', '今天，迈出这一步'], // 首页大图标语文字
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
 
